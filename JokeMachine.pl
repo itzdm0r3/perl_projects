@@ -53,7 +53,8 @@ chomp ($reply = <STDIN>);
 
 if ($reply ne 'silence') {
     print "\nSorry. Wrong answer. Think about it and try again later. \n\n";
-} else {
+} 
+else {
     print "\nYes, that's right. Well done!\n\n";
 }
 
