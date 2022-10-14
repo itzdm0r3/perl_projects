@@ -60,3 +60,18 @@ if ($reply ne 'silence') {
 #These statments analyze the player's response (which is stored in $reply) to see what it is equal to.
 #Based on the response either of two strings is printed. The above statments are controlled by an IF_ELSE
 #statement.
+
+###CONTROLING THE DISPLAY###
+#this subroutine loops and adds 20 blank lines to the screen when called.
+
+sub clear_the_screen {
+
+    for ($i=0; $i < 20; ++$i){
+        print "\n";
+    }
+}
+
+
+
+#these code statements define the "clear_the_screen" subroutine. By grouping statements into subroutines
+#you enable them to be called whenever necessary from any point in a script.
