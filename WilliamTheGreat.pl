@@ -11,3 +11,5 @@
 #6. Tell the story.
 #7. End the story.
 #8. Create a subroutine to clear the screen.
+
+clear_the_screen();
